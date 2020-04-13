@@ -1,9 +1,60 @@
-﻿Build started 12/6/2015 6:37:38 PM.
-     1>Project "C:\Users\danial\Downloads\HangMan\HangMan\bgi.vcxproj" on node 2 (clean target(s)).
-     1>_PrepareForClean:
-         Deleting file "Debug\HangMan.lastbuildstate".
-     1>Done Building Project "C:\Users\danial\Downloads\HangMan\HangMan\bgi.vcxproj" (clean target(s)).
+﻿Build started 4/13/2020 7:43:54 PM.
+     1>Project "F:\PCFiles\Github\HangMan_Programming\bgi.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\HangMan.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\MicrosoftVisualStudio10\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt bgiout.cxx dibutil.cxx drawing.cxx file.cxx main.cxx misc.cxx mouse.cxx palette.cxx text.cxx winbgi.cxx winthread.cxx
+         winthread.cxx
+     1>f:\pcfiles\github\hangman_programming\winthread.cxx(320): warning C4101: 'i' : unreferenced local variable
+         winbgi.cxx
+     1>f:\pcfiles\github\hangman_programming\winbgi.cxx(81): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>f:\pcfiles\github\hangman_programming\winbgi.cxx(134): warning C4101: 'actual_color' : unreferenced local variable
+     1>f:\pcfiles\github\hangman_programming\winbgi.cxx(133): warning C4101: 'bgi_color' : unreferenced local variable
+     1>f:\pcfiles\github\hangman_programming\winbgi.cxx(494): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoftvisualstudio10\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         text.cxx
+     1>f:\pcfiles\github\hangman_programming\text.cxx(348): warning C4018: '<' : signed/unsigned mismatch
+         palette.cxx
+         mouse.cxx
+         misc.cxx
+         main.cxx
+     1>f:\pcfiles\github\hangman_programming\main.cxx(194): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\pcfiles\github\hangman_programming\main.cxx(226): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\pcfiles\github\hangman_programming\main.cxx(238): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>f:\pcfiles\github\hangman_programming\main.cxx(262): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoftvisualstudio10\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>f:\pcfiles\github\hangman_programming\main.cxx(298): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoftvisualstudio10\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>f:\pcfiles\github\hangman_programming\main.cxx(237): warning C4101: 't' : unreferenced local variable
+         file.cxx
+         drawing.cxx
+     1>f:\pcfiles\github\hangman_programming\drawing.cxx(819): warning C4101: 'tries' : unreferenced local variable
+     1>f:\pcfiles\github\hangman_programming\drawing.cxx(859): warning C4101: 'answer' : unreferenced local variable
+     1>f:\pcfiles\github\hangman_programming\drawing.cxx(1110): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoftvisualstudio10\vc\include\string.h(110) : see declaration of 'strcat'
+         dibutil.cxx
+         bgiout.cxx
+         Generating Code...
+       Link:
+         d:\MicrosoftVisualStudio10\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\PCFiles\Github\HangMan_Programming\Debug\HangMan.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\HangMan.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\PCFiles\Github\HangMan_Programming\Debug\HangMan.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\PCFiles\Github\HangMan_Programming\Debug\HangMan.lib" /MACHINE:X86 Debug\bgiout.obj
+         Debug\dibutil.obj
+         Debug\drawing.obj
+         Debug\file.obj
+         Debug\main.obj
+         Debug\misc.obj
+         Debug\mouse.obj
+         Debug\palette.obj
+         Debug\text.obj
+         Debug\winbgi.obj
+         Debug\winthread.obj
+         bgi.vcxproj -> F:\PCFiles\Github\HangMan_Programming\Debug\HangMan.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\PCFiles\Github\HangMan_Programming\Debug\HangMan.exe;#1" /manifest Debug\HangMan.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\HangMan.unsuccessfulbuild".
+         Touching "Debug\HangMan.lastbuildstate".
+     1>Done Building Project "F:\PCFiles\Github\HangMan_Programming\bgi.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.01
+Time Elapsed 00:00:13.15
